@@ -80,7 +80,7 @@ tf.app.flags.DEFINE_integer(
     'epochs_per_eval', 20,
     'The number of training epochs to run between evaluations.')
 tf.app.flags.DEFINE_integer(
-    'batch_size', 8,
+    'batch_size', 16,
     'Batch size for training and evaluation.')
 tf.app.flags.DEFINE_boolean(
     'use_ohkm', True,
